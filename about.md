@@ -7,7 +7,7 @@ example: "Example text in this variable."
 This page describes the amazing {{ site.title }} by {{ site.author.name }}.
 {{ page.example }}
 
-{% includes big-cat.html %}
+{% include big-cat.html %}
 
 ## About Pages
 
