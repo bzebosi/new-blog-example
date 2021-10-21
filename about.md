@@ -1,11 +1,15 @@
 ---
-layout: page
+layout: dark
 title: About
+example: "Example text in this variable."
 ---
 
-Some Markdown content describing your site.
+This page describes the amazing {{ site.title }} by {{ site.author.name }}.
+{{ page.example }}
 
-## About About Pages
+{% include big-cat.html %}
+
+## About Pages
 
 The About page is a common convention found on websites.
 It is your opportunity to let us know all the details "about" your project:
