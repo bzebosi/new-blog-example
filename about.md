@@ -28,3 +28,10 @@ It is your opportunity to let us know all the details "about" your project:
 {% else %}- <small>{{ animal.name }}</small>
 {% endif %}
 {% endfor %}
+
+## List of Small Animals
+
+{% assign small_animals = site.data.animals | where: "size", "small" %}
+{% for animal in small_animals %}
+- {{ animal.name | upcase }}
+{% endfor %}
