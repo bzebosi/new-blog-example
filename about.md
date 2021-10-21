@@ -1,6 +1,6 @@
 ---
 layout: dark
-title: about
+title: About
 example: "Example text in this variable."
 ---
 
